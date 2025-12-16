@@ -33,9 +33,8 @@ Flask / Streamlit (for UI)
 
 Pickle (model serialization)
 
-
 📁 Project Structure
-Email-SMS-Spam-Classifier/
+ <pre> Email-SMS-Spam-Classifier/
 │
 ├── app.py                  # Main application file
 ├── model.pkl               # Trained ML model
@@ -48,3 +47,20 @@ Email-SMS-Spam-Classifier/
 │
 └── notebook/
     └── training.ipynb      # Model training notebook
+</pre>
+
+Run the Application
+<pre> Python app.run<pre>
+⚙️ Project Workflow
+
+User enters an Email or SMS message
+
+Text preprocessing (lowercase, tokenization, stopwords removal, stemming)
+
+TF-IDF converts text into numerical features
+
+ML model predicts Spam or Not Spam
+
+Result is displayed on the web interface
+
+
