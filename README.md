@@ -51,6 +51,10 @@ Pickle (model serialization)
 
 Run the Application
 <pre> Python app.run<pre>
+
+
+
+
 ⚙️ Project Workflow
 
 User enters an Email or SMS message
